@@ -7,7 +7,7 @@ author: "Bestests"
 ---
 글쓰기 테스트입니다. 아아아 이거 되는건지 모르겠다. 아아 되나요??
 <h2>Html Test</h2>
-
+<link rel="stylesheet" href="./highlight/styles/monokai.css" />
 <script src="/js/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 <pre>
