@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "블로그 글 테스트 입니다."
+date:   2019-01-30 19:47:31 +0530
+categories: ["design", "science", "life"]
+author: "Bestests"
+---
+글쓰기 테스트입니다. 아아아 이거 되는건지 모르겠다. 아아 되나요??
