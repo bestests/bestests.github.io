@@ -14,7 +14,7 @@ author: "Bestests"
 <hr />
 <pre>
   <code class="javascript">
-      // input object "<input type="text" id="inputObj" />"
+      // input object &lt;input type="text" id="inputObj" /&gt;
       const inputObj = document.getElementById("inputObj");
       
       let timer;
