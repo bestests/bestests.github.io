@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Javascript"
-permalink: "Javascript"
+permalink: "/javascript/"
 tagline: "Javascript Codes"
 category: "javascript"
 ---
