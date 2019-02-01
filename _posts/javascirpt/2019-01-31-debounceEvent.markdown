@@ -22,7 +22,7 @@ author: "Bestests"
       const inputListener = function (event) {
           if(timer) clearTimeout(timer);
           timer = setTimeout(() => {
-              // to do
+              // Do something!!
               console.log(this.value);
           }, 250);
       }
