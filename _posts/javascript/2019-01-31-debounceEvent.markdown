@@ -35,3 +35,21 @@ author: "Bestests"
       inputObj.oninput = inputListener.bind(inputObj);
   </code>
 </pre>
+
+<script>
+    const inputObj  = document.getElementById("inputObj");
+    const resultObj = document.getElementById("resultObj");
+      
+    let timer;
+      
+    const inputListener = function (event) {
+        if(timer) clearTimeout(timer);
+        timer = setTimeout(() => {
+            // Do something!!
+            console.log(this.value);
+            resultObj.innerText = this.value;
+        }, 250);
+    }
+      
+    inputObj.oninput = inputListener.bind(inputObj);
+</script>
