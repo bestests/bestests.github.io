@@ -38,4 +38,4 @@ author: "Bestests"
       };
       
       btnObj.onclick = btnOnclickListener.bind(inputObj);
-</scirpt>
+</script>
