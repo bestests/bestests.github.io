@@ -12,10 +12,14 @@ author: "Bestests"
 <h2>Javascript</h2>
 <h3>Debounce Event</h3>
 <hr />
+<input type="text" id="inputObj" />
+<div id="resultObj"></div>
 <pre>
   <code class="javascript">
       // input object &lt;input type="text" id="inputObj" /&gt;
-      const inputObj = document.getElementById("inputObj");
+      // reulst obejct &lt;div id="resultObj"&gt;&lt;/div&gt;
+      const inputObj  = document.getElementById("inputObj");
+      const resultObj = document.getElementById("resultObj");
       
       let timer;
       
@@ -24,6 +28,7 @@ author: "Bestests"
           timer = setTimeout(() => {
               // Do something!!
               console.log(this.value);
+              resultObj.innerText = this.value;
           }, 250);
       }
       
