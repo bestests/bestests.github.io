@@ -10,7 +10,7 @@ author: "Bestests"
 <script>hljs.initHighlightingOnLoad();</script>
 
 <h1>#Variables</h1>
-
+---
 <pre>
   <code class="go">
       // 타입 생략 가능(생략 시 초기 데이터로 타입 정해짐)
@@ -27,3 +27,4 @@ author: "Bestests"
       }
   </code>
 </pre>
+---
