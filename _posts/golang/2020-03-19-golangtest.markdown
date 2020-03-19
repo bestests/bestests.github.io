@@ -9,7 +9,7 @@ author: "Bestests"
 <script src="/js/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<h1>#Variables
+<h1>#Variables</h1>
 
 <pre>
   <code class="go">
