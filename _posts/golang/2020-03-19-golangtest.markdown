@@ -13,9 +13,11 @@ Variables
 
 <pre>
   <code class="go">
+      // 타입 생략 가능(생략 시 초기 데이터로 타입 정해짐)
       var test1 = "test1"
       const test2 = "test2"
       
+      // 타입 명시 가능
       var test3 string = "test3"
       const test4 string = "test4"
       
