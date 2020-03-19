@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "If Else"
+date:   2019-03-19 15:33:00 +0530
+categories: ["golang"]
+author: "Bestests"
+---
+<link rel="stylesheet" href="/js/highlight/styles/monokai.css" />
+<script src="/js/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<h1>#If Else</h1>
+---
+<pre>
+  <code class="go">
+  		package main
+		
+		import (
+			"fmt"
+		)
+		
+		func numChk1 (num int) bool {
+			result := false;
+			
+			// if '조건문' 으로 선언
+			if num < 10 {
+				result = true
+			} else {
+				result = false;
+			}
+			
+			return result
+		}
+		
+		func numChk2 (num int) bool {
+		
+			// 단순한 2중 조건일 경우 else 생략
+			if num < 10 {
+				return true
+			}
+			
+			return false
+		}
+		
+		func numChk3 (num int) bool {
+		
+			// 조건문 전에 변수 선언 가능 ';'으로 조건문과 구분
+			if addNum := num + 2 ; addNum < 10 {
+				fmt.Println("addNum - ", addNum, ", num - ", num)
+				return true
+			}
+			
+			return false
+		}
+		
+		func main () {
+			fmt.Println(numChk1(8))
+			fmt.Println(numChk2(8))
+			fmt.Println(numChk3(8))
+			fmt.Println(numChk3(6))
+		}
+  </code>
+</pre>
+---
