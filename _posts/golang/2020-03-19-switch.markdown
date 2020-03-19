@@ -1,0 +1,96 @@
+---
+layout: post
+title:  "Switch"
+date:   2019-03-19 16:54:00 +0530
+categories: ["golang"]
+author: "Bestests"
+---
+<link rel="stylesheet" href="/js/highlight/styles/monokai.css" />
+<script src="/js/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<h1>#Switch</h1>
+---
+<pre>
+  <code class="go">
+      package main
+      
+      import (
+          "fmt"
+      )
+      
+      func numChk1 (num int) bool {
+          // 선언 - switch '사용할 변수' {}
+          switch num {
+          // case 조건 : 조건 충족 시 코드
+          case 1:
+              return false
+          case 2:
+              return false
+          case 3:
+              return true
+          // 위 조건 해당 없을 시 기본 코드
+          default:
+              return false
+          }
+      }
+      
+      func numChk2 (num int) bool {
+          // 특정 변수 없이 case에서 조건으로 switch 가능
+          switch {
+          case num < 10:
+              return true
+          case num >= 10:
+              return false
+          }
+          return false
+      }
+      
+      func numChk3 (num int) bool {
+          // switch 안에서 변수 선언 후 사용 가능
+          switch addNum := num + 2 ; addNum {
+          case 1:
+              return false
+          case 2:
+              return false
+          case 3:
+              return true
+          default:
+              return false
+          }
+      }
+      
+      func numChk4 (num int) bool {
+          // switch 안에선 변수만 선언 후 case에서 조건으로 사용 가능
+          switch addNum := num + 2 ; {
+          case addNum < 10:
+              return false
+          case addNum >= 10:
+              return true
+          }
+          
+          return false
+      }
+      
+      func main () {
+          fmt.Println(numChk1(1))
+          fmt.Println(numChk1(3))
+          
+          fmt.Println("=========================")
+          
+          fmt.Println(numChk2(4))
+          fmt.Println(numChk2(10))
+          
+          fmt.Println("=========================")
+          
+          fmt.Println(numChk3(1))
+          fmt.Println(numChk3(5))
+          
+          fmt.Println("=========================")
+          
+          fmt.Println(numChk4(3))
+          fmt.Println(numChk4(9))
+      }
+  </code>
+</pre>
+---
