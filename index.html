@@ -22,7 +22,10 @@ layout: default
     </div>
     -->
     <div class="postExt">
-      categories - {{ post.categories | strip_html | truncate:200 }}  
+      categories - 
+      {% for category in post.categories%}
+      {{ category | strip_heml | truncate:200 }}
+      {% endfor %}
     </div>
   </div>
 
