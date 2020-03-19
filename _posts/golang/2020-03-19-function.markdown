@@ -35,7 +35,7 @@ author: "Bestests"
       
       // 파라미터 타입이 같을땐 ‘,’ 로 연속하여 선언 가능
       // 리턴 변수도 사용 가능
-      func funcTest3 (num1, num2 int) num3 int {
+      func funcTest3 (num1, num2 int) (num3 int) {
           num3 = num1 + num2
          
           // 마지막에 꼭 return 명시해줌
