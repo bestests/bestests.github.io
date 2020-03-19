@@ -9,16 +9,19 @@ author: "Bestests"
 <script src="/js/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-test
-``` golang
-var test int = "test"
+Variables
 
-test2 := "test2"
-```
 <pre>
   <code class="go">
-      var test3 int = "test3"
+      var test1 = "test1"
+      const test2 = "test2"
       
-      test4 := "test4"
+      var test3 string = "test3"
+      const test4 string = "test4"
+      
+      func test () {
+         // in function only 
+         test5 := "test5"
+      }
   </code>
 </pre>
