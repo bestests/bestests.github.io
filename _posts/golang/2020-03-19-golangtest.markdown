@@ -20,7 +20,7 @@ Variables
       const test4 string = "test4"
       
       func test () {
-         // in function only 
+         // 함수안에서만 가능
          test5 := "test5"
       }
   </code>
