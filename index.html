@@ -18,13 +18,13 @@ layout: default
     </div>
     <!--
     <div class="postExt">
-   {{ post.content | strip_html | truncate:200}} |
+   {{ post.content | strip_html | truncate:200}}
     </div>
     -->
     <div class="postExt">
       categories - 
       {% for category in post.categories%}
-      {{ category | strip_heml | truncate:200 }}
+      {{ category | strip_heml | truncate:200 }} | 
       {% endfor %}
     </div>
   </div>
