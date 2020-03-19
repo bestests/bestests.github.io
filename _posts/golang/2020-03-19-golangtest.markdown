@@ -17,7 +17,7 @@ test2 := "test2"
 ```
 <pre>
   <code class="go">
-      var test3 = "test3"
+      var test3 int = "test3"
       
       test4 := "test4"
   </code>
