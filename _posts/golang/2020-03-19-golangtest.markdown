@@ -6,7 +6,7 @@ categories: ["golang"]
 author: "Bestests"
 ---
 test
-``` go
+``` golang
 var test int = "test"
 
 test2 := "test2"
