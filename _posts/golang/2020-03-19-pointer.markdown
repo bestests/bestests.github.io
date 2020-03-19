@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Pointer"
-date:   2019-03-19 09:38:00 +0530
+date:   2019-03-19 18:07:00 +0530
 categories: ["golang"]
 author: "Bestests"
 ---
@@ -9,7 +9,7 @@ author: "Bestests"
 <script src="/js/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<h1>#Variables</h1>
+<h1>#Pointer</h1>
 ---
 <pre>
   <code class="go">
