@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Switch"
-date:   2019-03-19 16:54:00 +0530
+date:   2020-03-19 16:54:00 +0530
 categories: ["golang"]
 author: "Bestests"
 ---

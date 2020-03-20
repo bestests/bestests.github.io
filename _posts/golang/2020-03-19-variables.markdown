@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Variables"
-date:   2019-03-19 09:38:00 +0530
+date:   2020-03-19 09:38:00 +0530
 categories: ["golang"]
 author: "Bestests"
 ---
