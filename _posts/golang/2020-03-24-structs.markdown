@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Map"
-date:   2020-03-24 17:13:00 +0530
+title:  "Structs"
+date:   2020-03-24 21:52:00 +0530
 categories: ["golang"]
 author: "Bestests"
 ---
@@ -9,7 +9,7 @@ author: "Bestests"
 <script src="/js/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<h1>#Map</h1>
+<h1>#Structs</h1>
 ---
 <pre>
   <code class="go">
